@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+:root{
+    --main-bg-color: #2874f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    font-family: 'Girassol', cursive;
+    background: var(--main-bg-color);
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 5.5rem;
+    padding: 0rem 1rem;
+}
+
+nav ul{
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0rem 2rem;
+    list-style: none;
+}
+
+nav ul li a{
+    color: rgb(235, 231, 231);
+    text-decoration: none;
+}
+
+
+
+nav ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    right: -15rem;
+}
+
+.search input{
+    font-family: 'Girassol', cursive;
+    padding: 0.3rem;
+    width: 20vw;
+    height: 1.5rem;
+    border-radius: 6px;
+}
+
+.btn{
+    position: absolute;
+    margin-top: 0.2rem;
+    right: 0rem;
+    padding: 0rem 0.5rem;
+    height: 2.25rem;
+    border-radius: 6px;
+    background-color: rgb(212, 212, 212);
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(212, 212, 212);
+    border: 2xp solid white;
+
+}
+
+/* Main Section */
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.container{
+    min-height: calc(100vh - 24vh);
+}
+
+.card{
+    max-width: 91vw;
+    font-family: 'Girassol', cursive;
+    margin: auto;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+footer{
+    font-family: 'Girassol', cursive;
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+}
